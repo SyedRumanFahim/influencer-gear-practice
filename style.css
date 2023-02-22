@@ -1,0 +1,195 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@700&family=Poppins:wght@600&display=swap');
+ 
+/* Universal design */
+body {
+    margin: 0;
+    background: #FFFFFF;
+}
+
+/* Header navbar design */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 87px 120px 58px 120px;
+}
+.nav-logo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+/* Header lower part design */
+.header-lower-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+.header-left {
+    width: 582px;
+}
+.header-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    margin-top: 104px;
+}
+.header-left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin: -18px 0px 16px 0px;
+}
+.radius{
+    border-radius: 41px;
+}
+.primary-button{
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.header-right {
+    margin: 0px 165px 100px 0px;
+    background-image: url(./images/Circle\ design.svg);
+}
+
+/* Main section */
+/* Logo section */
+.all-brands {
+    display: flex;
+    gap: 61px;
+    width: 1110px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+    padding: 36px 62px;
+}
+
+/* Popular collection section */
+.popular-collections{
+    width: 1047px;
+    margin: 100px auto;
+}
+.collection-section-title{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.collection {
+    width: 329px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.collection-container{
+    margin: 17px 14px 17px 14px;
+}
+.myimage {
+    width: 300px;
+}
+.collection-title{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 16px 0px 6px 0px;
+}
+.price{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+}
+.rating {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.rating .star{
+    color:  #FB8200;
+    font-size: 11px;
+}
+.rating .no{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+.collection-container .description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Featured Products section */
+.featured-section-container{
+    display: flex;
+    width: 1110px;
+    gap: 96px;
+    margin: 0px auto;
+}
+.product-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+}
+.product-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Footer style */
+.footer-container{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.footer-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 50px;
+}
+.copyright-desclaimer{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 3px 0px;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 14px 0px 50px 0px;
+}
